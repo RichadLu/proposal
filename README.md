@@ -16,3 +16,8 @@
 - 做成web，APP
 - 连接chess AI engine
 - 使用机械臂移动棋子
+best.pt yolo11训练后的权重文件
+chess.py 定义储存棋局状态的数据类型
+getchess.py 封装get_chess_info函数，调用yolo11检测棋子，并返回棋子位置
+getcorners.py 使用传统计算机视觉方法检测棋盘，返回棋盘的四个角的位置，方便计算透视矩阵
+getresult.py 执行此文件得到棋局状态
