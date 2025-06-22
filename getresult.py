@@ -78,13 +78,13 @@ def main(img_path):
         x, y = chess_info["coordinates"]["x"], chess_info["coordinates"]["y"]
         transformed_point = transform_single_point((x, y),output_size,M)
         chessBoard.set_piece(transformed_point[1]//100,transformed_point[0]//100,chess_info["cls_id"])
-        #print(f"原始点 ({x}, {y}) 变换后为: {transformed_point}")
+       
     print("棋盘状态：")
     print(chessBoard)
 
 
 
 if __name__ == "__main__":
-    # 替换为你的图像路径
+    # 检测图像路径
     image_path = r"F:\jupyter notebook\CV\group\ultralytics-main\archive\Chess Pieces.yolov8-obb\test\images\cfc306bf86176b92ffc1afbb98d7896f_jpg.rf.effd71a5dcd98ec0f24072af5f7c0a31.jpg"
     main(image_path)
