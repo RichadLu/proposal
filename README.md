@@ -31,3 +31,5 @@
 - gui.py 执行此文件通过前端检测棋局状态
 - report.pdf 使用latex编写的实验报告
   
+## 演示视频b站网址
+- https://www.bilibili.com/video/BV1tcKpzkEyY/
