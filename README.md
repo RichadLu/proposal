@@ -1,4 +1,3 @@
-# proposal
 
 这个项目属于中国海洋大学计算机学院计算机视觉课程期末项目
 
@@ -26,3 +25,6 @@
 - getchess.py 封装get_chess_info函数，调用yolo11检测棋子，并返回棋子位置
 - getcorners.py 使用传统计算机视觉方法检测棋盘，返回棋盘的四个角的位置，方便计算透视矩阵
 - getresult.py 执行此文件得到棋局状态
+- gui.py 执行此文件通过前端检测棋局状态
+- report.pdf 使用latex编写的实验报告
+  
