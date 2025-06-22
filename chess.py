@@ -13,12 +13,12 @@ class PieceColor(Enum):
     BLACK = "black"    # 黑方
     NONE = "none"      # 无方
 class ChessPiece:
-    # 修正：保留一个__init__方法，通过参数初始化颜色和类型
+   
     def __init__(self, color: PieceColor, piece_type: PieceType):
         self.color = color    # 棋子颜色（白/黑）
         self.type = piece_type  # 棋子类型（王/后/车/象/马/兵）
     
-    # （可选）若需要通过整数初始化，可添加类方法（如from_int）
+   
     @classmethod
     def from_int(chess, num: int):
         color = PieceColor.BLACK if num <= 6 else PieceColor.WHITE
