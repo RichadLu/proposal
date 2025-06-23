@@ -2,7 +2,7 @@
 这个项目属于中国海洋大学计算机学院计算机视觉课程期末项目
 
 ## 视频链接
-。。。
+- https://www.bilibili.com/video/BV1tcKpzkEyY/
 
 ## 项目成员
 刘翔宇
@@ -31,5 +31,4 @@
 - gui.py 执行此文件通过前端检测棋局状态
 - report.pdf 使用latex编写的实验报告
   
-## 演示视频b站网址
-- https://www.bilibili.com/video/BV1tcKpzkEyY/
+
