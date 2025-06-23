@@ -15,13 +15,10 @@
 **国际象棋的计算机视觉应用**
 
 ## 主要功能
-
 - 识别棋盘 chess board
 - 识别棋盘上的棋子 chess pieces
 - 判断每个棋子在棋盘的哪个格子里
-- 做成web，APP
-- 连接chess AI engine
-- 使用机械臂移动棋子
+- gui可视化显示，APP
 ## 文件用途说明
 - best.pt yolo11训练后的权重文件
 - chess.py 定义储存棋局状态的数据类型
