@@ -1,0 +1,37 @@
+name: namer_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.0+1
+  tflite_flutter: ^0.9.0
+  tflite_flutter_helper: ^0.2.1  # 更新到兼容版本
+  flutter_riverpod: ^2.4.0  # 使用 flutter_riverpod 替代 riverpod
+  hooks_riverpod: ^2.4.0    # 用于更简洁的状态管理
+  shared_preferences: ^2.2.0
+  path_provider: ^2.1.1
+  chess: ^0.8.1
+  share_plus: ^7.0.0  # 替换 share 包
+  flutter_svg: ^2.0.7
+  image_picker: ^1.0.4
+  image: ^3.0.2
+  # opencv: ^4.8.0  # 添加 OpenCV 用于棋盘检测
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/models/best_float16.tflite  # 添加资源路径
